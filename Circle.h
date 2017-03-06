@@ -4,11 +4,11 @@ class Circle :
 	public Shape
 {
 public:
-	Circle(int r);
+	Circle(float r);
 	~Circle();
 
 	void printArea();
-
+	
 private:
 	float radius;
 };
