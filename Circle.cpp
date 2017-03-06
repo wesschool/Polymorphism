@@ -1,10 +1,9 @@
 #include "Circle.h"
-#include <cmath>
 
-#define pie 3.1415
+#define pi 3.1415
 
-Circle::Circle(int r)
-	:radius(r)
+Circle::Circle(float r)
+	:radius{r}
 {
 }
 
@@ -15,5 +14,5 @@ Circle::~Circle()
 
 void Circle::printArea()
 {
-	std::cout << "Circle Area = " << pie * powf(radius, 2) << std::endl;
+	std::cout << "Circle Area = " << pi * radius * radius << std::endl;
 }
