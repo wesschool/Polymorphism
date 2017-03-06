@@ -6,7 +6,7 @@ class Shape
 {
 public:
 	Shape() {};
-	~Shape() {};
+	virtual ~Shape() {};
 	
 	virtual void printArea() = 0;
 };
