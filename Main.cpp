@@ -12,8 +12,8 @@ int main()
 	shapes.push_back(&circle);
 	shapes.push_back(&rect);
 	
-	for (int i = 0; i < shapes.size(); i++)
+	for (auto shape : shapes)
 	{
-		shapes[i]->printArea();
+		shape->printArea();
 	}
 }
